@@ -39,12 +39,12 @@ sudo docker compose up -d
 ```bash
 npx prisma generate
 npx prisma migrate dev --name init
-npx prisma seed
+npx prisma db seed
 
 
 yarn prisma generate
 yarn prisma migrate dev --name init
-yarn prisma seed
+yarn prisma db seed
 ```
 
 ### Iniciar projeto
